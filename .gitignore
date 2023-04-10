@@ -3,6 +3,9 @@
 .codex
 .mcp.json
 
+# sparkle
+.github/notes
+
 # goreleaser artifacts
 /dist/
 
