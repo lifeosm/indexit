@@ -18,7 +18,7 @@ func TestExecution(t *testing.T) {
 	})
 
 	t.Run("failure", func(t *testing.T) {
-		exit = func(code int) { assert.Equal(t, 1, code) }
+		exit = func(code int) { assert.Equal(t, 2, code) }
 		stderr, stdout = io.Discard, io.Discard
 		os.Args = []string{"root", "unknown"}
 		main()
