@@ -1,12 +1,12 @@
 export default {
   project: {
-    link: 'https://github.com/octomation/go-tool',
+    link: 'https://github.com/lifeosm/indexit',
   },
 
-  docsRepositoryBase: 'https://github.com/octomation/go-tool/blob/main/docs',
+  docsRepositoryBase: 'https://github.com/lifeosm/indexit/blob/main/docs',
   feedback: {
     useLink() {
-      return 'https://github.com/octomation/go-tool/discussions/new/choose'
+      return 'https://github.com/lifeosm/indexit/discussions/new/choose'
     },
   },
   useNextSeoProps() {

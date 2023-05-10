@@ -45,7 +45,7 @@ jobs:
       - name: Set up Go environment
         uses: actions/setup-go@v5.0.0
         with:
-          go-version: 1.21.x
+          go-version: 1.26.x
           check-latest: true
 
       - name: Run linter
@@ -60,8 +60,7 @@ jobs:
       matrix:
         go:
           - 1.x
-          - 1.20.x
-          - 1.21.x
+          - 1.26.x
 
     steps:
       - name: Checkout the repository
@@ -79,14 +78,14 @@ jobs:
         run: make go-check
       - name: Run tests
         run: make test
-        if: matrix.go != '1.21.x'
+        if: matrix.go != '1.26.x'
       - name: Run tests with coverage report
         run: make test-with-coverage
-        if: matrix.go == '1.21.x'
+        if: matrix.go == '1.26.x'
       - name: Store code coverage report
         uses: actions/upload-artifact@v4.0.0
         with: { name: code-coverage-report, path: c.out }
-        if: matrix.go == '1.21.x'
+        if: matrix.go == '1.26.x'
 
       - name: Check installation
         run: |
