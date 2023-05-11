@@ -66,7 +66,7 @@ func New() *cobra.Command {
 		"increase log verbosity (-v debug, -vvv enables gotd internals)")
 	command.PersistentFlags().BoolVarP(&quiet, "quiet", "q", false,
 		"suppress everything below error level (stdout payload unaffected)")
-	command.PersistentFlags().DurationVar(&heartbeat, "heartbeat", 15*time.Second,
+	command.PersistentFlags().DurationVar(&heartbeat, "heartbeat", 10*time.Second,
 		"emit a 'still waiting...' line if a network call exceeds this duration (0 disables)")
 
 	/* configure instance */
