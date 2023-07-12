@@ -27,10 +27,10 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v7.0.0
         with: { fetch-depth: 0 }
       - name: Set up Go environment
-        uses: actions/setup-go@v5.0.0
+        uses: actions/setup-go@v6.5.0
         with:
           go-version: ${{ matrix.go }}
           check-latest: true
@@ -44,7 +44,7 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v7.0.0
         with: { fetch-depth: 0 }
       - name: Set up Node.js environment
         uses: actions/setup-node@v4.0.1
@@ -62,10 +62,10 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v7.0.0
         with: { fetch-depth: 0 }
       - name: Set up Go environment
-        uses: actions/setup-go@v5.0.0
+        uses: actions/setup-go@v6.5.0
         with:
           go-version: 1.26.x
           cache-dependency-path: tools/go.sum
@@ -82,7 +82,7 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v7.0.0
         with: { fetch-depth: 0 }
 
       - name: Send notification
