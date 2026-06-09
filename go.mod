@@ -10,8 +10,10 @@ require (
 	github.com/stretchr/testify v1.11.1
 	go.octolab.org v0.12.2
 	go.octolab.org/toolkit/cli v0.6.3
+	go.octolab.org/toolkit/config v0.0.4
 	go.uber.org/zap v1.28.0
-	golang.org/x/term v0.43.0
+	golang.org/x/net v0.52.0
+	golang.org/x/term v0.44.0
 )
 
 require (
@@ -48,7 +50,6 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.10.0 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
-	go.octolab.org/toolkit/config v0.0.4 // indirect
 	go.opentelemetry.io/otel v1.43.0 // indirect
 	go.opentelemetry.io/otel/metric v1.43.0 // indirect
 	go.opentelemetry.io/otel/trace v1.43.0 // indirect
@@ -57,9 +58,8 @@ require (
 	golang.org/x/crypto v0.49.0 // indirect
 	golang.org/x/exp v0.0.0-20230725093048-515e97ebf090 // indirect
 	golang.org/x/mod v0.34.0 // indirect
-	golang.org/x/net v0.52.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
-	golang.org/x/sys v0.44.0 // indirect
+	golang.org/x/sys v0.46.0 // indirect
 	golang.org/x/text v0.35.0 // indirect
 	golang.org/x/tools v0.43.0 // indirect
 	gopkg.in/ini.v1 v1.66.2 // indirect
