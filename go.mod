@@ -3,18 +3,21 @@ module go.octolab.org/toolset/indexit
 go 1.26
 
 require (
-	github.com/fatih/color v1.18.0
+	github.com/fatih/color v1.19.0
 	github.com/golang/mock v1.6.0
-	github.com/gotd/td v0.144.0
+	github.com/gotd/td v0.152.0
 	github.com/spf13/cobra v1.8.0
 	github.com/stretchr/testify v1.11.1
 	go.octolab.org v0.12.2
 	go.octolab.org/toolkit/cli v0.6.3
+	go.octolab.org/toolkit/config v0.0.4
 	go.uber.org/zap v1.28.0
-	golang.org/x/term v0.43.0
+	golang.org/x/net v0.56.0
+	golang.org/x/term v0.44.0
 )
 
 require (
+	github.com/andybalholm/brotli v1.2.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/coder/websocket v1.8.14 // indirect
@@ -36,10 +39,11 @@ require (
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mitchellh/mapstructure v1.4.3 // indirect
-	github.com/ogen-go/ogen v1.19.0 // indirect
+	github.com/ogen-go/ogen v1.20.3 // indirect
 	github.com/pelletier/go-toml v1.9.4 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/refraction-networking/utls v1.8.2 // indirect
 	github.com/segmentio/asm v1.2.1 // indirect
 	github.com/shopspring/decimal v1.4.0 // indirect
 	github.com/spf13/afero v1.6.0 // indirect
@@ -48,20 +52,18 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.10.0 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
-	go.octolab.org/toolkit/config v0.0.4 // indirect
-	go.opentelemetry.io/otel v1.43.0 // indirect
-	go.opentelemetry.io/otel/metric v1.43.0 // indirect
-	go.opentelemetry.io/otel/trace v1.43.0 // indirect
+	go.opentelemetry.io/otel v1.44.0 // indirect
+	go.opentelemetry.io/otel/metric v1.44.0 // indirect
+	go.opentelemetry.io/otel/trace v1.44.0 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/crypto v0.49.0 // indirect
+	golang.org/x/crypto v0.53.0 // indirect
 	golang.org/x/exp v0.0.0-20230725093048-515e97ebf090 // indirect
-	golang.org/x/mod v0.34.0 // indirect
-	golang.org/x/net v0.52.0 // indirect
-	golang.org/x/sync v0.20.0 // indirect
-	golang.org/x/sys v0.44.0 // indirect
-	golang.org/x/text v0.35.0 // indirect
-	golang.org/x/tools v0.43.0 // indirect
+	golang.org/x/mod v0.36.0 // indirect
+	golang.org/x/sync v0.21.0 // indirect
+	golang.org/x/sys v0.46.0 // indirect
+	golang.org/x/text v0.38.0 // indirect
+	golang.org/x/tools v0.45.0 // indirect
 	gopkg.in/ini.v1 v1.66.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
