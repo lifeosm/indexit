@@ -40,7 +40,7 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v7.0.0
+        uses: actions/checkout@v7.0.1
         with: { fetch-depth: 0 }
       - name: Set up Go environment
         uses: actions/setup-go@v6.5.0
@@ -64,7 +64,7 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v7.0.0
+        uses: actions/checkout@v7.0.1
         with: { fetch-depth: 0 }
       - name: Set up Go environment
         uses: actions/setup-go@v6.5.0
@@ -131,7 +131,7 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v7.0.0
+        uses: actions/checkout@v7.0.1
         with: { fetch-depth: 0 }
 
       - name: Send notification
